@@ -17,7 +17,7 @@ pub struct VeloPoint {
 impl VeloPoint {
     pub fn to_string(&self) -> String {
         format!(
-            "{},{},{},{},{},{},{},{},{}\n",
+            "{},{},{},{},{},{},{},{},{}",
             self.reflectivity,
             self.channel,
             self.azimuth,
